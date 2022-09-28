@@ -1,0 +1,25 @@
+name: firebase_push_with_local_notification
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.17.6 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  firebase_messaging: ^13.0.0
+  firebase_core: ^1.21.1
+  flutter_local_notifications: ^9.9.1
+  http: ^0.13.5
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
